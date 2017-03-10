@@ -1,7 +1,7 @@
 # cloudflare-ufw
 Script to update UFW with Cloudflare IPs
 
-This script was kindly [written by Leow Kah Man](https://www.leowkahman.com/2016/05/02/automate-raspberry-pi-ufw-allow-cloudflare-inbound/) and I've added a few tweaks!
+This script was kindly [written by Leow Kah Man](https://www.leowkahman.com/2016/05/02/automate-raspberry-pi-ufw-allow-cloudflare-inbound/) and [Paul Reed](https://github.com/Paul-Reed/cloudflare-ufw/) tweaked it to add some more possibilities.  I tweaked it a bit more according to Paul's comments in the script so it will only allow Cloudflare through http and https ports.
 
 ### Setup
 Assuming that you already have ufw installed (now a pre-installed package in most linux distros), firstly ensure that ufw is not enabled;
